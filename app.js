@@ -7,10 +7,17 @@ createUserWithEmailAndPassword, signOut } from
 
 // 🔴 ADD YOUR FIREBASE CONFIG HERE
 const firebaseConfig = {
-  apiKey: "PASTE_HERE",
-  authDomain: "PASTE_HERE",
-  projectId: "PASTE_HERE"
+  apiKey: "AIzaSyD6w8yrDCP1yWxVPg40XX6l1eYkbInN0v0",
+  authDomain: "myphotovault-f23db.firebaseapp.com",
+  projectId: "myphotovault-f23db",
+  storageBucket: "myphotovault-f23db.appspot.com",
+  messagingSenderId: "954071160337",
+  appId: "1:954071160337:web:be0d3dbb0c5b873b9a43b0"
 };
+
+  // Initialize Firebase
+
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
