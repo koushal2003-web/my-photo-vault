@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Private Photo Vault</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>🔐 My Photo Vault</h2>
+
+<div id="login">
+  <input type="email" id="email" placeholder="Email">
+  <input type="password" id="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+  <button onclick="signup()">Sign Up</button>
+</div>
+
+<div id="dashboard" style="display:none;">
+  <h3>Upload Photo</h3>
+  <input type="file" id="file">
+  <button onclick="upload()">Upload</button>
+  <br><br>
+  <button onclick="logout()">Logout</button>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
